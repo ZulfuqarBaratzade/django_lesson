@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'index.css' %}">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="header">
+                <div class="logo">
+                    <a href="/">blog.com</a>
+                </div>
+                <div class="search_box">
+                    <input type="search" name="search" placeholder="Axtar...">
+                </div>
+                <div class="navbar">
+                    <ul>
+                        <li><a href="/blogs">Blogs</a></li>
+                        <li><a href="/contact">Contact us</a></li>
+                        <li><a href="/gallery">Gallery</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
